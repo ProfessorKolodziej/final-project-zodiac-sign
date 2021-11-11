@@ -23,6 +23,14 @@ $orange: #dd7c00;
 $green: #3b975f;
 $blue: #4261ab;
 
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/Background-color.webp);
+}
+
 .page-heading {
 	color: $red;
 

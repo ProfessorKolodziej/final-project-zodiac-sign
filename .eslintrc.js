@@ -6,6 +6,7 @@ module.exports = {
 		"indent": [2, "tab"],
 		"guard-for-in": 0,
 		"no-restricted-syntax": 0,
+		"no-plusplus": 0,
 	},
 	"env": {
 		"browser": true,

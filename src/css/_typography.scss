@@ -1,6 +1,6 @@
 // You can still use import to import a stylesheet from Google Fonts.
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Nunito:wght@700&family=Sriracha&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Basic:ital@1&display=swap");
 // Your typography styles here.
 
@@ -45,15 +45,18 @@
 
 h2 {
 	line-height: 50px;
+	color: white;
 }
 
 h3 {
 	text-align: center;
 	line-height: 50px;
+	color: white;
 }
 
 p {
 	line-height: 30px;
+	color: white;
 }
 
 .description {

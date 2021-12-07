@@ -1,5 +1,6 @@
 // Some frontend developers prefer to keep layout styles in a partial, like this.
 
+/*
 @media screen and (min-width: 500px) and (max-width: 1200px) {
 	.iconper {
 		width: 21%;
@@ -36,9 +37,22 @@
 	}
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
-	.main {
-		width: 85%;
-		margin: 0 auto;
+*/
+
+@media screen and (min-width: 500px) and (max-width: 1200px) {
+	.iconper {
+		width: 21%;
+		margin: 20px 0;
+		text-align: center;
+		padding: 2%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.iconper {
+		width: 29%;
+		margin: 20px 0;
+		text-align: center;
+		padding: 2%;
 	}
 }

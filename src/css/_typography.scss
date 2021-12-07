@@ -69,6 +69,10 @@ p {
 	font-size: 15px;
 }
 
+.description p {
+	padding: 0 20% 0 20%;
+}
+
 .slogan {
 	font-family: "Gentium Basic", serif;
 	padding: 5%;
@@ -106,7 +110,7 @@ p {
 }
 
 .goldimg img {
-	width: 20%;
+	width: 30%;
 }
 
 .bom {
@@ -118,8 +122,8 @@ p {
 	line-height: 80px;
 	color: goldenrod;
 	text-align: left;
-	text-indent: 120px;
-	background-image: url(../images/Star-sign.webp);
+	text-indent: 80px;
+	background-image: url(../images/iconstar.png);
 	background-repeat: no-repeat;
 	background-size: auto;
 }

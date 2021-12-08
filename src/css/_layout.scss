@@ -13,6 +13,11 @@
 		padding-top: 14%;
 		padding-left: 2%;
 	}
+
+	.main {
+		width: 85%;
+		margin: 0 auto;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -27,5 +32,14 @@
 		text-align: center;
 		padding-top: 50%;
 		padding-left: 2%;
+	}
+
+	.main {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.top img {
+		width: 50%;
 	}
 }

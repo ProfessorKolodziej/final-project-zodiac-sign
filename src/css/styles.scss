@@ -172,6 +172,12 @@ header ul li a:hover {
 	color: yellow;
 }
 
+.icon {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .icon,
 .main {
 	padding-top: 80px;
@@ -180,12 +186,6 @@ header ul li a:hover {
 .top,
 .description {
 	text-align: center;
-}
-
-.icon {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 }
 
 .iconper {

@@ -26,6 +26,7 @@ $blue: #4261ab;
 * {
 	padding: 0;
 	margin: 0;
+	margin-bottom: 2%;
 	color: white;
 }
 
@@ -148,7 +149,7 @@ header {
 	position: fixed;
 	height: 60px;
 	width: 100%;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba($color: white, $alpha: 0.7);
 }
 
 header ul {
@@ -163,13 +164,19 @@ header ul li {
 
 header ul li a {
 	line-height: 60px;
-	font-size: 18px;
+	font-size: 25px;
 	font-weight: bold;
-	color: salmon;
+	color: purple;
 }
 
 header ul li a:hover {
 	color: yellow;
+}
+
+.icon {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .icon,
@@ -177,10 +184,13 @@ header ul li a:hover {
 	padding-top: 80px;
 }
 
-.icon {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.top,
+.description {
+	text-align: center;
+}
+
+.iconper a:hover p {
+	color: yellow;
 }
 
 .iconper {
@@ -198,4 +208,37 @@ header ul li a:hover {
 
 .iconper img {
 	width: 100%;
+}
+
+.grid {
+	display: inline-flex;
+}
+
+.grid p {
+	padding-left: 3%;
+	padding-right: 10%;
+}
+
+@media screen and (max-width: 500px) {
+	.iconper {
+		width: 29%;
+		margin: 20px 0;
+		text-align: center;
+		padding: 2%;
+	}
+
+	.title-page {
+		text-align: center;
+		padding-top: 50%;
+		padding-left: 2%;
+	}
+
+	.main {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.top img {
+		width: 50%;
+	}
 }

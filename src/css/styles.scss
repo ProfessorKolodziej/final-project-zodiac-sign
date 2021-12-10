@@ -217,3 +217,27 @@ header ul li a:hover {
 	padding-left: 3%;
 	padding-right: 10%;
 }
+
+@media screen and (max-width: 500px) {
+	.iconper {
+		width: 29%;
+		margin: 20px 0;
+		text-align: center;
+		padding: 2%;
+	}
+
+	.title-page {
+		text-align: center;
+		padding-top: 50%;
+		padding-left: 2%;
+	}
+
+	.main {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.top img {
+		width: 50%;
+	}
+}

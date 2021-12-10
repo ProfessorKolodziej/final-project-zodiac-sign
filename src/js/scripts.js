@@ -1,6 +1,6 @@
 const body = document.querySelector('#starshine');
 const template = document.querySelector('.template.shine');
-const stars = 20;
+const stars = 30;
 const sparkle = 20;
 
 let size = 'small';

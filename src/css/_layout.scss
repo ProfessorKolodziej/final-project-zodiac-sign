@@ -1,25 +1,5 @@
 // Some frontend developers prefer to keep layout styles in a partial, like this.
 
-@media screen and (min-width: 500px) {
-	.iconper {
-		width: 21%;
-		margin: 20px 0;
-		text-align: center;
-		padding: 2%;
-	}
-
-	.title-page {
-		text-align: center;
-		padding-top: 14%;
-		padding-left: 2%;
-	}
-
-	.main {
-		width: 85%;
-		margin: 0 auto;
-	}
-}
-
 @media screen and (max-width: 500px) {
 	.iconper {
 		width: 29%;

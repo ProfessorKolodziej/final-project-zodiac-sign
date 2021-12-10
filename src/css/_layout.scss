@@ -1,25 +1,5 @@
 // Some frontend developers prefer to keep layout styles in a partial, like this.
 
-@media screen and (max-width: 500px) {
-	.iconper {
-		width: 29%;
-		margin: 20px 0;
-		text-align: center;
-		padding: 2%;
-	}
-
-	.title-page {
-		text-align: center;
-		padding-top: 50%;
-		padding-left: 2%;
-	}
-
-	.main {
-		width: 95%;
-		margin: 0 auto;
-	}
-
-	.top img {
-		width: 50%;
-	}
-}
+/*
+Professor, we don't know why this sheet doesn't work. So we have to move the @media and screen code to styles.scss sheet
+*/
